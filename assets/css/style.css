@@ -1,0 +1,158 @@
+:root{
+    --title-font: 'Economica', sans-serif!important;
+    --sub-font: 'Noto Serif', serif!important;
+    --p-font: 'Poppins', sans-serif!important;
+
+    --white: #fff!important;
+    --black: #000!important;
+    --yellow: #f9bc50!important;
+    --grey: #4e5b60!important;
+}
+
+main {
+    margin: 0!important;
+    padding: 0!important;
+}
+
+ul li {
+    list-style: none;
+}
+
+a, p, td, th, label, input, select, textarea, option, footer ul li {
+    color: var(--black)!important;
+    font-family: var(--p-font)!important;
+    font-size: 15px!important;
+}
+
+button {
+    font-family: var(--p-font);
+    font-size: 15px!important;
+}
+
+.main-title{
+    font-family: var(--title-font);
+    letter-spacing: 10px;
+    font-size: 100px;
+}
+
+.sub-title{
+    font-family: var(--sub-font);
+    font-size: 32px;
+}
+
+.white-text {
+    color: var(--white)!important;
+}
+
+.black-text{
+    color: var(--black);
+}
+
+nav.navbar{
+    background-color: var(--white)!important;
+}
+
+.navbar-brand img {
+    width: 150px;
+}
+
+.bg-yellow {
+    background-color: var(--yellow);
+    margin-right: 5px;
+}
+
+.bg-grey {
+    background-color: var(--grey);
+}
+
+.bg-white {
+    background-color: var(--white);
+}
+
+.btn-accept, .btn-refuse {
+    color: var(--white);
+}
+
+.cookie{
+    width: 20px;
+}
+
+.toast {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    font-family: var(--p-font);
+}
+
+.nb-place {
+    margin-right: 5px;
+}
+.ma-seance{
+    margin-left: 5px;
+}
+
+.white-hr {
+    background-color: var(--white);
+    opacity: 1;
+}
+
+.w-33{
+    width: 33%;
+}
+
+.img-footer {
+    width: 150px;
+}
+
+.white-icon {
+    filter: invert(100%);
+}
+
+.img-accueil {
+    width: 100%;
+}
+
+@media screen and (max-width: 995px) {
+    .sub-title {
+        font-size: 20px;
+    }
+
+    a, p, td, th, label, input, select, option, footer ul li, button {
+        font-size: 10px!important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .responsive-footer {
+        align-items: center!important;
+        text-align: center;
+    }
+
+    ol, ul {
+        padding-left: 0!important;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    .main-title {
+        font-size: 65px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .main-title {
+        font-size: 50px;
+    }
+
+    .sub-title {
+        font-size: 18px;
+    }
+
+    .logo {
+        width: 100px!important;
+    }
+
+    .toast {
+        width: 280px!important;
+    }
+}
