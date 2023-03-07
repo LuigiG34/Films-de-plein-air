@@ -82,32 +82,69 @@
 
 
     <main class="container-fluid p-lg-5 p-md-4 p-sm-3 p-2 my-5">
-        <h1 class="main-title text-center mt-5">CONTACT</h1>
-        <p class="text-center">Si vous avez une question concernant le festival, n'hesitez pas à nous contacter.</p>
-        <section class="container p-5 ">
-            <article class="row p-lg-5 p-md-4 p-sm-3 p-2 bg-light my-5">
-                <div class="col-lg-6 col-md-12 d-flex justify-content-center flex-column p-lg-5 p-md-4 p-sm-3 p-2">
-                    <img src="../assets/img/icons/email.png" alt="">
-                </div>
-                <div class="col-lg-6 col-md-12 d-flex justify-content-center flex-column p-lg-5 p-md-4 p-sm-3 p-2">
-                    <form action="" method="post" class="w-100">
-                          <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="floatingPassword" placeholder="Password">
-                            <label for="floatingPassword">Adresse Mail</label>
-                          </div>
-                          <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="floatingPassword" placeholder="Password">
-                            <label for="floatingPassword">Object</label>
-                          </div>
-                          <div class="form-group mb-3">
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" style="resize: none;">Message...</textarea>
-                          </div>
-                          <button class="btn bg-yellow px-4 text-white">ENVOYER</button>
-                    </form>
-                </div>
-            </article>
-        </section>
+        <h1 class="main-title text-center mt-5">RÉSERVATION</h1>
+        <section class="container p-lg-5 p-md-4 p-sm-3 p-2 bg-light">
+        <article class="row">
+
+                <article class="row p-lg-5 p-md-4 p-sm-3 p-2">
+                    <div
+                        class="col-lg-6 col-md-12 p-lg-5 p-md-4 p-sm-3 p-2 d-flex align-items-center justify-content-center">
+                        <img class="img-accueil" src="/assets/img/icons/popcorn.png" alt="">
+                    </div>
+                    <div
+                        class="col-lg-6 col-md-12 p-lg-5 p-md-4 p-sm-3 p-2 d-flex align-items-center justify-content-center">
+                        <form action="" method="post" class="w-100">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingInput" placeholder="Nom Prénom">
+                                <label for="floatingInput">Nom complet</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingPassword" placeholder="Password">
+                                <label for="floatingPassword">Adresse Mail</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingPassword" placeholder="Password">
+                                <label for="floatingPassword">Numéro de téléphone</label>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div class="form-floating mb-3 nb-place w-50">
+                                    <input type="number" class="form-control" id="floatingPassword" placeholder="Password">
+                                    <label for="floatingPassword">Nombre de place</label>
+                                </div>
+                                <select class="form-select form-select-lg py-3 mb-3 ma-seance w-50"
+                                    aria-label=".form-select-lg example">
+                                    <option selected>Ma séance</option>
+                                    <optgroup label="05/08/2023">
+                                        <option value="avt">Avatar : La voie de l'eau (18h00 - 21h00)</option>
+                                        <option value="bclc">Bienvenue chez les ch'tis (21h00 - 00h00)</option>
+                                    </optgroup>
+                                    <optgroup label="06/08/2023">
+                                        <option value="intc">Intouchables (18h00 - 21h00)</option>
+                                        <option value="lpo">Le prince Oublié (21h00 - 00h00)</option>
+                                    </optgroup>
+                                    <optgroup label="07/08/2023">
+                                        <option value="edp">L'empereur de Paris (18h00 - 21h00)</option>
+                                        <option value="lmrb">Les Miserables (21h00 - 00h00)</option>
+                                    </optgroup>
+                                    <optgroup label="08/08/2023">
+                                        <option value="skfl">Skyfall 007 (18h00 - 21h00)</option>
+                                        <option value="ttnc">Titanic (21h00 - 00h00)</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                <label class="form-check-label black-text" for="flexCheckChecked">
+                                  J'accepte les termes et les conditions d'utilisations.
+                                </label>
+                              </div>
+                            <button class="btn bg-yellow text-white px-4">RÉSERVER</button>
+                        </form>
+                    </div>
+                </article>
+            </section>
     </main>
+
 
     <section class="container-fluid bg-light p-5">
         <section class="container p-lg-5 p-md-4 p-sm-3 p-2">

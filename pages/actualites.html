@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Playfair+Display:ital@1&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Economica:wght@700&family=Noto+Serif:ital@1&family=Poppins:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/css/style.css">
@@ -50,9 +51,29 @@
                             <li><a class="dropdown-item" href="list-of-films.html">TITANIC</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../index.html#reservation">RÉSERVATION</a>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="pages/list-of-films.html" id="navbarDropdown"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            LANGUE
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item d-flex align-items-center justify-content-between" href="pages/list-of-films.html">
+                                <img src="/assets/img/icons/france.png" width="15px"> FRANÇAIS
+                            </a></li>
+                            <li><a class="dropdown-item d-flex align-items-center justify-content-between" href="pages/list-of-films.html">
+                                <img src="/assets/img/icons/united-kingdom.png" width="15px"> ENGLISH
+                            </a></li>
+                            <li><a class="dropdown-item d-flex align-items-center justify-content-between" href="pages/list-of-films.html">
+                                <img src="/assets/img/icons/arabiesaoudite.png" width="15px">العربية
+                            </a></li>
+                            <li><a class="dropdown-item d-flex align-items-center justify-content-between" href="pages/list-of-films.html">
+                                <img src="/assets/img/icons/china.png" width="15px">中国语文
+                            </a></li>
+                        </ul>
                     </li>
+
+
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">CONTACT</a>
                     </li>
@@ -75,7 +96,8 @@
                     <hr>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt aliquam voluptatem explicabo! Aut qui alias, quidem ducimus dignissimos reiciendis ipsa quaerat quisquam amet sed? Iure ipsam dicta recusandae itaque quia.
                     Deserunt perspiciatis eaque dolores ad laboriosam, ipsum quasi sunt temporibus nemo sequi, unde aut. Quisquam in, quasi facere facilis blanditiis dignissimos omnis possimus esse consequatur, voluptas, asperiores expedita quia alias?</p>
-                </div>
+                <a href="actualites-unique.html" class="btn bg-black white-text">Voir plus</a>
+            </div>
             </article>
             <article class="row p-lg-5 p-md-4 p-sm-3 p-2 bg-black my-5">
                 <div class="col-lg-6 col-md-12 d-flex justify-content-center flex-column p-lg-5 p-md-4 p-sm-3 p-2">
@@ -86,7 +108,8 @@
                     <hr class="white-hr">
                     <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt aliquam voluptatem explicabo! Aut qui alias, quidem ducimus dignissimos reiciendis ipsa quaerat quisquam amet sed? Iure ipsam dicta recusandae itaque quia.
                     Deserunt perspiciatis eaque dolores ad laboriosam, ipsum quasi sunt temporibus nemo sequi, unde aut. Quisquam in, quasi facere facilis blanditiis dignissimos omnis possimus esse consequatur, voluptas, asperiores expedita quia alias?</p>
-                </div>
+                <a href="actualites-unique.html" class="btn bg-white">Voir plus</a>
+            </div>
             </article>
             <article class="row p-lg-5 p-md-4 p-sm-3 p-2 bg-light my-5">
                 <div class="col-lg-6 col-md-12 d-flex justify-content-center flex-column p-lg-5 p-md-4 p-sm-3 p-2">
@@ -97,12 +120,25 @@
                     <hr>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt aliquam voluptatem explicabo! Aut qui alias, quidem ducimus dignissimos reiciendis ipsa quaerat quisquam amet sed? Iure ipsam dicta recusandae itaque quia.
                     Deserunt perspiciatis eaque dolores ad laboriosam, ipsum quasi sunt temporibus nemo sequi, unde aut. Quisquam in, quasi facere facilis blanditiis dignissimos omnis possimus esse consequatur, voluptas, asperiores expedita quia alias?</p>
-                </div>
+                <a href="actualites-unique.html" class="btn bg-black white-text">Voir plus</a>
+            </div>
             </article>
         </section>
     </main>
 
-
+    <section class="container-fluid bg-light p-5">
+        <section class="container p-lg-5 p-md-4 p-sm-3 p-2">
+            <h6 class="sub-title text-center my-4 black-text">Abonnez-vous à la newsletter</h6>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum tenetur dolores nulla nesciunt aperiam saepe illo recusandae quo iste, atque maxime at, dignissimos possimus laborum omnis voluptatibus nemo a enim?</p>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Adresse mail</label>
+                <div class="d-flex justify-content-center align-items-center w-100">
+                    <button class="btn bg-yellow px-4 text-white my-3">S'ABONNER</button>
+                </div>
+              </div>
+        </section>
+    </section>
     <footer class="container-fluid bg-grey text-white">
         <section class="container p-lg-5 p-md-4 p-sm-3 p-2">
             <article class="row p-lg-5 p-md-4 p-sm-3 p-2">
@@ -120,8 +156,9 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-4 col-md-12 d-flex align-items-center justify-content-center responsive-footer">
+                <div class="col-lg-4 col-md-12 d-flex align-items-center justify-content-center flex-column responsive-footer">
                     <img class="img-footer" src="../assets/img/logo/logo-footer.png" alt="">
+                    <a class="text-white" href="mentions-legales.html">Mentions Légales & RGPD</a>
                 </div>
                 <div class="col-lg-4 col-md-12 d-flex align-items-end justify-content-center flex-column responsive-footer">
                     <h6 class="sub-title">Notre adresse</h6>

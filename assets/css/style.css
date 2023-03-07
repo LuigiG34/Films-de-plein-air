@@ -1,7 +1,7 @@
 :root{
-    --title-font: 'Economica', sans-serif!important;
-    --sub-font: 'Noto Serif', serif!important;
-    --p-font: 'Poppins', sans-serif!important;
+    --title-font: 'Economica', 'Open Sans', sans-serif!important;
+    --sub-font: 'Noto Serif', 'Playfair Display', serif!important;
+    --p-font: 'Poppins', 'Roboto', sans-serif!important;
 
     --white: #fff!important;
     --black: #000!important;
@@ -12,6 +12,18 @@
 main {
     margin: 0!important;
     padding: 0!important;
+}
+
+#main{
+    background-image: url('../img/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-title{
+    font-family: var(--sub-font);
+
 }
 
 ul li {
@@ -33,6 +45,12 @@ button {
     font-family: var(--title-font);
     letter-spacing: 10px;
     font-size: 100px;
+}
+
+.main-sub-title{
+    font-family: var(--title-font);
+    letter-spacing: 10px;
+    font-size: 30px;
 }
 
 .sub-title{
@@ -112,6 +130,16 @@ nav.navbar{
     width: 100%;
 }
 
+.carousel-item, .carousel, .carousel-item img{
+    width: 400px!important;
+    height: 600px!important;
+}
+
+.form-check-input:checked {
+    background-color: var(--black)!important;
+    border-color: var(--black)!important;
+}
+
 @media screen and (max-width: 995px) {
     .sub-title {
         font-size: 20px;
@@ -122,7 +150,35 @@ nav.navbar{
     }
 }
 
+@media screen and (max-width: 991px) {
+    #derniere-actu {
+        flex-direction: column;
+    }
+
+    .card{
+        width: 100%!important;
+        margin-bottom: 25px;
+    }
+
+    .main-title{
+        text-align: center;
+    }
+    
+    .sub-title {
+        text-align: center;
+    }
+    #first-container-home{
+        align-items: center;
+    }
+}
+
 @media screen and (max-width: 768px) {
+    .first-page{
+        margin-top: 25px;
+    }
+    .main-title {
+        font-size: 55px;
+    }
     .responsive-footer {
         align-items: center!important;
         text-align: center;
@@ -131,17 +187,28 @@ nav.navbar{
     ol, ul {
         padding-left: 0!important;
     }
+    .main-sub-title{
+        font-family: var(--title-font);
+        letter-spacing: 10px;
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 465px) {
+    
+
     .main-title {
-        font-size: 65px;
+        font-size: 45px;
+    }
+    .carousel-item, .carousel, .carousel-item img{
+        width: 300px!important;
+        height: 500px!important;
     }
 }
 
 @media screen and (max-width: 375px) {
     .main-title {
-        font-size: 50px;
+        font-size: 35px;
     }
 
     .sub-title {
