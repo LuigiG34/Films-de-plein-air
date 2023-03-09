@@ -4,7 +4,7 @@
     --p-font: 'Poppins', 'Roboto', sans-serif!important;
 
     --white: #fff!important;
-    --black: #000!important;
+    --black: #0f0f0f!important;
     --yellow: #f9bc50!important;
     --grey: #4e5b60!important;
 }
@@ -85,6 +85,10 @@ nav.navbar{
 
 .bg-white {
     background-color: var(--white);
+}
+
+.bg-black{
+    background-color: var(--black)!important;
 }
 
 .btn-accept, .btn-refuse {
